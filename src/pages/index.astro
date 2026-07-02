@@ -95,7 +95,6 @@ const steps = [
   },
 ];
 
-const hammerPath = `<path d="M14 3l7 7-3 3-7-7z"/><path d="M11 6L4 13l3 3 7-7"/><path d="M6 15l-3 6 6-3"/>`;
 ---
 
 <SiteLayout>
@@ -106,7 +105,7 @@ const hammerPath = `<path d="M14 3l7 7-3 3-7-7z"/><path d="M11 6L4 13l3 3 7-7"/>
 
   <!-- HEADER / NAV -->
   <header
-    class="sticky top-0 z-[100] border-b border-line bg-[rgba(250,246,240,0.92)] backdrop-blur-[8px] backdrop-saturate-[1.4]"
+    class="sticky top-0 z-[100] border-b border-line bg-[rgba(251,250,247,0.92)] backdrop-blur-[8px] backdrop-saturate-[1.4]"
   >
     <div
       class="mx-auto flex max-w-[1180px] items-center justify-between gap-4 px-5 py-3"
@@ -116,29 +115,20 @@ const hammerPath = `<path d="M14 3l7 7-3 3-7-7z"/><path d="M11 6L4 13l3 3 7-7"/>
         href="#top"
         aria-label="Sphyros Home Services home"
       >
-        <span
-          class="grid h-[42px] w-[42px] flex-none place-items-center rounded-xl bg-gradient-to-br from-amber to-amber-deep shadow-[0_4px_12px_rgba(138,63,14,0.35)]"
-          aria-hidden="true"
-        >
-          <svg
-            viewBox="0 0 24 24"
-            width="24"
-            height="24"
-            fill="none"
-            stroke="#fff"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            set:html={hammerPath}
-          />
-        </span>
+        <img
+          class="h-[42px] w-[42px] flex-none rounded-xl"
+          src="/brand-kit/icon.svg"
+          alt=""
+          width="42"
+          height="42"
+        />
         <span>
           <span
-            class="block font-display text-[20px] font-bold leading-[1.05] tracking-[-0.01em]"
+            class="block font-display text-[17px] font-normal uppercase leading-[1.05] tracking-[0.22em]"
             >Sphyros</span
           >
           <span
-            class="block font-sans text-[11px] font-semibold uppercase tracking-[0.12em] text-charcoal-soft"
+            class="block font-sans text-[10px] font-medium uppercase tracking-[0.42em] text-charcoal-soft"
             >Home Services</span
           >
         </span>
@@ -159,7 +149,7 @@ const hammerPath = `<path d="M14 3l7 7-3 3-7-7z"/><path d="M11 6L4 13l3 3 7-7"/>
 
       <div class="hidden items-center gap-3 min-[960px]:flex">
         <a
-          class="inline-flex items-center justify-center gap-[9px] rounded-xl bg-gradient-to-b from-amber to-amber-dark px-[22px] py-[13px] text-[16px] font-bold text-white no-underline shadow-[0_8px_20px_rgba(165,77,18,0.35)] transition-[transform,box-shadow] duration-150 hover:-translate-y-0.5 hover:shadow-[0_12px_26px_rgba(165,77,18,0.45)]"
+          class="inline-flex items-center justify-center gap-[9px] rounded-xl bg-gradient-to-b from-amber to-amber-dark px-[22px] py-[13px] text-[16px] font-bold text-white no-underline shadow-[0_8px_20px_rgba(154,119,52,0.35)] transition-[transform,box-shadow] duration-150 hover:-translate-y-0.5 hover:shadow-[0_12px_26px_rgba(154,119,52,0.45)]"
           href="#contact">Get a free quote</a
         >
       </div>
@@ -200,7 +190,7 @@ const hammerPath = `<path d="M14 3l7 7-3 3-7-7z"/><path d="M11 6L4 13l3 3 7-7"/>
           ))
         }
         <a
-          class="mt-2 inline-flex w-full items-center justify-center gap-[9px] rounded-xl bg-gradient-to-b from-amber to-amber-dark px-[22px] py-[13px] text-[16px] font-bold text-white no-underline shadow-[0_8px_20px_rgba(165,77,18,0.35)]"
+          class="mt-2 inline-flex w-full items-center justify-center gap-[9px] rounded-xl bg-gradient-to-b from-amber to-amber-dark px-[22px] py-[13px] text-[16px] font-bold text-white no-underline shadow-[0_8px_20px_rgba(154,119,52,0.35)]"
           href="#contact">Get a free quote</a
         >
       </div>
@@ -214,7 +204,7 @@ const hammerPath = `<path d="M14 3l7 7-3 3-7-7z"/><path d="M11 6L4 13l3 3 7-7"/>
     <section class="relative overflow-hidden py-11 pb-5 min-[960px]:py-16 min-[960px]:pb-10" aria-labelledby="hero-h">
       <div
         class="pointer-events-none absolute inset-0 z-0"
-        style="background: radial-gradient(1100px 460px at 78% -8%, rgba(200,97,27,.16), transparent 60%), radial-gradient(760px 420px at 6% 108%, rgba(61,107,79,.12), transparent 60%);"
+        style="background: radial-gradient(1100px 460px at 78% -8%, rgba(193,154,85,.20), transparent 60%), radial-gradient(760px 420px at 6% 108%, rgba(61,107,79,.12), transparent 60%);"
         aria-hidden="true"
       >
       </div>
@@ -275,7 +265,7 @@ const hammerPath = `<path d="M14 3l7 7-3 3-7-7z"/><path d="M11 6L4 13l3 3 7-7"/>
             </div>
             <div class="mb-3.5">
               <a
-                class="inline-flex items-center justify-center gap-[9px] rounded-xl bg-gradient-to-b from-amber to-amber-dark px-[30px] py-4 text-[18px] font-bold text-white no-underline shadow-[0_8px_20px_rgba(165,77,18,0.35)] transition-[transform,box-shadow] duration-150 hover:-translate-y-0.5 hover:shadow-[0_12px_26px_rgba(165,77,18,0.45)]"
+                class="inline-flex items-center justify-center gap-[9px] rounded-xl bg-gradient-to-b from-amber to-amber-dark px-[30px] py-4 text-[18px] font-bold text-white no-underline shadow-[0_8px_20px_rgba(154,119,52,0.35)] transition-[transform,box-shadow] duration-150 hover:-translate-y-0.5 hover:shadow-[0_12px_26px_rgba(154,119,52,0.45)]"
                 href="#contact">Get a free quote</a
               >
             </div>
@@ -305,12 +295,12 @@ const hammerPath = `<path d="M14 3l7 7-3 3-7-7z"/><path d="M11 6L4 13l3 3 7-7"/>
           </div>
 
           <aside
-            class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-charcoal to-[#38312a] p-[26px] text-sand-100 shadow-[0_24px_60px_rgba(43,38,32,0.2)]"
+            class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-charcoal to-[#363b45] p-[26px] text-sand-100 shadow-[0_24px_60px_rgba(38,43,51,0.2)]"
             aria-label="What to expect"
           >
             <div
               class="pointer-events-none absolute -right-[60px] -top-[60px] h-[220px] w-[220px] rounded-full"
-              style="background: radial-gradient(circle, rgba(200,97,27,.55), transparent 65%);"
+              style="background: radial-gradient(circle, rgba(193,154,85,.55), transparent 65%);"
               aria-hidden="true"
             >
             </div>
@@ -340,7 +330,7 @@ const hammerPath = `<path d="M14 3l7 7-3 3-7-7z"/><path d="M11 6L4 13l3 3 7-7"/>
                   },
                 ].map((li) => (
                   <li class="flex items-start gap-3 rounded-xl border border-white/10 bg-white/[0.06] px-3.5 py-3">
-                    <span class="grid h-[30px] w-[30px] flex-none place-items-center rounded-[9px] bg-amber font-display font-extrabold text-white">
+                    <span class="grid h-[30px] w-[30px] flex-none place-items-center rounded-[9px] bg-amber font-display font-normal text-charcoal">
                       {li.n}
                     </span>
                     <span>
@@ -468,7 +458,7 @@ const hammerPath = `<path d="M14 3l7 7-3 3-7-7z"/><path d="M11 6L4 13l3 3 7-7"/>
           {
             steps.map((step) => (
               <div class="rounded-[18px] border border-line bg-cream px-6 py-[26px]">
-                <div class="mb-3.5 grid h-12 w-12 place-items-center rounded-full bg-charcoal font-display text-[1.4rem] font-bold text-cream">
+                <div class="mb-3.5 grid h-12 w-12 place-items-center rounded-full bg-charcoal font-display text-[1.4rem] font-normal text-cream">
                   {step.n}
                 </div>
                 <h3 class="text-[1.25rem] text-charcoal">{step.title}</h3>
@@ -497,7 +487,7 @@ const hammerPath = `<path d="M14 3l7 7-3 3-7-7z"/><path d="M11 6L4 13l3 3 7-7"/>
           </p>
         </div>
         <div class="grid grid-cols-1 gap-7 min-[720px]:grid-cols-[1.2fr_0.9fr]">
-          <div class="rounded-[22px] bg-cream p-[26px] text-ink shadow-[0_24px_60px_rgba(43,38,32,0.2)]">
+          <div class="rounded-[22px] bg-cream p-[26px] text-ink shadow-[0_24px_60px_rgba(38,43,51,0.2)]">
             <form id="quoteForm" novalidate>
               <h3 class="text-[1.4rem] text-charcoal">Tell us about your project</h3>
               <div class="mb-[15px]">
@@ -545,7 +535,7 @@ const hammerPath = `<path d="M14 3l7 7-3 3-7-7z"/><path d="M11 6L4 13l3 3 7-7"/>
                 never share your info.
               </p>
               <button
-                class="inline-flex w-full items-center justify-center gap-[9px] rounded-xl bg-gradient-to-b from-amber to-amber-dark px-[30px] py-4 text-[18px] font-bold text-white shadow-[0_8px_20px_rgba(165,77,18,0.35)] transition-[transform,box-shadow] duration-150 hover:-translate-y-0.5 hover:shadow-[0_12px_26px_rgba(165,77,18,0.45)]"
+                class="inline-flex w-full items-center justify-center gap-[9px] rounded-xl bg-gradient-to-b from-amber to-amber-dark px-[30px] py-4 text-[18px] font-bold text-white shadow-[0_8px_20px_rgba(154,119,52,0.35)] transition-[transform,box-shadow] duration-150 hover:-translate-y-0.5 hover:shadow-[0_12px_26px_rgba(154,119,52,0.45)]"
                 type="submit">Request my free quote</button
               >
             </form>
@@ -574,7 +564,7 @@ const hammerPath = `<path d="M14 3l7 7-3 3-7-7z"/><path d="M11 6L4 13l3 3 7-7"/>
                 class="mb-1.5 block text-[12px] font-semibold uppercase tracking-[0.1em] text-sand-300"
                 >Fast response</small
               >
-              <p class="mb-3.5 mt-0 font-display text-[1.5rem] font-bold leading-tight text-white">
+              <p class="mb-3.5 mt-0 font-display text-[1.5rem] font-normal leading-tight text-white">
                 We reply to every request quickly — usually the same day.
               </p>
               <div class="flex items-center gap-3 text-[15px] text-sand-200">
@@ -624,35 +614,27 @@ const hammerPath = `<path d="M14 3l7 7-3 3-7-7z"/><path d="M11 6L4 13l3 3 7-7"/>
     </section>
   </main>
 
-  <footer class="bg-[#1d1914] py-9 text-sand-200">
+  <footer class="bg-[#1b1e24] py-9 text-sand-200">
     <div class="mx-auto flex max-w-[1180px] flex-col gap-[18px] px-5">
       <a
         class="flex items-center gap-[11px] no-underline"
         href="#top"
         aria-label="Sphyros Home Services home"
       >
-        <span
-          class="grid h-[42px] w-[42px] flex-none place-items-center rounded-xl bg-gradient-to-br from-amber to-amber-deep shadow-[0_4px_12px_rgba(138,63,14,0.35)]"
-          aria-hidden="true"
-        >
-          <svg
-            viewBox="0 0 24 24"
-            width="24"
-            height="24"
-            fill="none"
-            stroke="#fff"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            set:html={hammerPath}
-          />
-        </span>
+        <img
+          class="h-[42px] w-[42px] flex-none rounded-xl"
+          src="/brand-kit/icon.svg"
+          alt=""
+          width="42"
+          height="42"
+        />
         <span>
-          <span class="block font-display text-[20px] font-bold leading-[1.05] text-white"
+          <span
+            class="block font-display text-[17px] font-normal uppercase leading-[1.05] tracking-[0.22em] text-white"
             >Sphyros</span
           >
           <span
-            class="block font-sans text-[11px] font-semibold uppercase tracking-[0.12em] text-sand-300"
+            class="block font-sans text-[10px] font-medium uppercase tracking-[0.42em] text-sand-300"
             >Home Services</span
           >
         </span>
@@ -662,7 +644,7 @@ const hammerPath = `<path d="M14 3l7 7-3 3-7-7z"/><path d="M11 6L4 13l3 3 7-7"/>
         St. Louis and the surrounding area. Free quotes, upfront pricing, and
         work done right.
       </p>
-      <div class="border-t border-white/[0.08] pt-4 text-[13px] text-[#8a7f72]">
+      <div class="border-t border-white/[0.08] pt-4 text-[13px] text-[#8a92a1]">
         © 2026 Sphyros Home Services · sphyroshome.com
       </div>
     </div>

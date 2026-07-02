@@ -33,6 +33,13 @@ confident. Make it easy to call.
 
 - **Design: Option A — "Hearth"** (warm sand/charcoal + amber, serif headings). This is the
   permanent Sphyros design. Working mockup: `design-options/option-a-hearth.html`.
+- **Brand kit (applied):** lives in `brand-kit/` at the repo root; the files the site
+  serves (favicon + logo) are copied into `public/brand-kit/`. Palette: **accent gold
+  `#C19A55`**, paper `#FBFAF7` (backgrounds), ink `#262B33` (text). Fonts: **Marcellus**
+  for headings/wordmark (single weight — never bold it) + **Jost** for body text.
+  Wordmark is all-caps Marcellus with 0.22em letter-spacing; descriptor is Jost Medium,
+  0.42em. Note: the CSS tokens are still *named* `amber` but now hold the gold values
+  (darker steps `#9A7734` / `#7C5F28` exist for text/button contrast).
 - **No phone on the site.** Josh asked to remove it — contact is the **quote-request form only**.
 - **Positioning:** emphasize **small projects & everyday repairs**. Sphyros does **NOT** do
   builds or full remodels — keep remodel/big-project language off the site. Services shown:
